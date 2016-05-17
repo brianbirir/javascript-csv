@@ -4,6 +4,7 @@ Opening accordions (collapsible content panels) based on the links saved in a CS
 # Tech Stack
 
 * jQuery
+* jQuery UI
 * Semantics UI
 * HTML5
 * [Papa Parse](http://papaparse.com/)
