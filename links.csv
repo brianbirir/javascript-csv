@@ -1,17 +1,13 @@
 id,title,link,primary category,secondary category
 1,The water cycle and rain information,http://infonet-biovision.org/EnvironmentalHealth/water-cycle-and-rain-information,Environment Health,Water Management
-,,,,
-,Water Management,,,
-,,,,
-,Soil Management,,,
-,,,,
-,Sustainable & Organic Agriculture,,,
-,,,,
-,Conservation Agriculture,,,
-,,,,
-,Agroforestry,,,
-,,,,
-,Trees,,,
-,,,,
-,Processing & Value Addition,,,
-,,,,
+2,Rain Water Harvesting,http://infonet-biovision.org/EnvironmentalHealth/Rainwater-Harvesting,Environment Health,Water Management
+3,Shallow Ground Water,http://infonet-biovision.org/EnvironmentalHealth/Shallow-ground-water,Environment Health,Water Management
+4,Surface Water,http://infonet-biovision.org/EnvironmentalHealth/Surface-water,Environment Health,Water Management
+5,Water for Domestic Use,http://infonet-biovision.org/EnvironmentalHealth/Water-domestic-use,Environment Health,Water Management
+6,Seeking funds for water projects,http://infonet-biovision.org/EnvironmentalHealth/Seeking-funds-water-projects,Environment Health,Water Management
+7,Community Management of water sources,http://infonet-biovision.org/EnvironmentalHealth/Community-management-water-sources,Environment Health,Water Management
+8,Water storage,http://infonet-biovision.org/EnvironmentalHealth/Water-storage,Environment Health,Water Management
+9,"Surveys, designs and permits for water projects",http://infonet-biovision.org/EnvironmentalHealth/Surveys-designs-and-permits-water-projects,Environment Health,Water Management
+10,Construction of water projects,http://infonet-biovision.org/EnvironmentalHealth/Construction-water-projects,Environment Health,Water Management
+11,Water as a business,http://infonet-biovision.org/EnvironmentalHealth/Water-business-0,Environment Health,Water Management
+12,Water for Irrigation,http://infonet-biovision.org/EnvironmentalHealth/Water-irrigation,Environment Health,Water Management
