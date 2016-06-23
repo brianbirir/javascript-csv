@@ -1,4 +1,5 @@
 //Custom Javascript
+/*
 (function ($) {
 	 $(document).ready(function() {
 
@@ -60,3 +61,50 @@
 		});
 	 });
 })(jQuery);
+*/
+
+// pure javascript code for Ajax
+// Non jQuery code for the sake of browser compatability
+function ajaxFunction() {
+	var ajaxRequest;
+
+	try {
+
+		ajaxRequest = new XMLHttpRequest();
+
+	} catch(e) {
+
+		try {
+
+			ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+
+		} catch(e) {
+			try {
+
+				ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+
+			} catch(e) {
+
+				alert("Your browser broke");
+				return false;
+
+			}
+		}
+
+	}
+
+	// receive data sent from the server
+	ajaxRequest.onreadystatechange = function () {
+		if(ajaxRequest.readyState == 4) {
+			
+			// output to log for debugging
+			console.log(ajaxRequest.responseText);
+		}
+	}
+
+	ajaxRequest.open("GET","links.json",true);
+	
+	// since the request is GET, the send string is NULL
+	ajaxRequest.send(null);
+
+}
