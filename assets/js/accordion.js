@@ -1,0 +1,1 @@
+// Accordion made of pure Javascript
