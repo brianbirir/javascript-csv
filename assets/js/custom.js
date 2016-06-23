@@ -18,7 +18,7 @@
 
 			try {
 
-				ajaxRequest = new XMLHttpRequest();
+				ajaxRequest = new XMLHttpRequest(); // For Safari, Firefox, Chrome etc
 
 			} catch(e) {
 				// if browser is Internet Explorer
