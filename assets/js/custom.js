@@ -19,6 +19,8 @@
 				// Get current page address
 				var pageAddress = window.location.href;
 
+				console.log(pageAddress);
+
 				// check if link property is the same as page address
 				if(hrefLink == pageAddress) {
 					switch(secondaryCategory) {
